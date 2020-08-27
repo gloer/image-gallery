@@ -1,2 +1,2 @@
 # image-gallery
-Et bildegalleri med css-grid
+Et bildegalleri med css-grid som funker veldig fint
