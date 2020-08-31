@@ -26,3 +26,11 @@ main img {
 .row-2 {
     grid-row: span 2;
 }
+
+/* Setter ned 3-kolonner til 2 når nettleseren blir smal */
+/* Kan være lurt å gjøre dette for 4, 5, 6 eller flere kolonner også hvis man har det*/
+@media (max-width: 620px) {
+    .col-3 {
+        grid-column: span 2;
+    }
+}
